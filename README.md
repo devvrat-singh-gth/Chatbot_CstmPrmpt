@@ -37,17 +37,6 @@ Set up your Groq API key:
 ```env
 GROQ_API_KEY=your_api_key_here
 ```
-
-**Option 2: Export via terminal**
-```bash
-export GROQ_API_KEY="your_api_key_here"
-```
-
-*For Windows PowerShell:*
-```bash
-setx GROQ_API_KEY "your_api_key_here"
-```
-
 ---
 
 ## 💻 Usage
