@@ -1,7 +1,6 @@
 # Groq AI Chatbot CLI [FastAPI]
 
 A lightweight and customizable chatbot powered by the **Groq API**, designed for fast, efficient, and high-quality text generation using Large Language Models (LLMs) such as GPT-OSS-20B.
-
 This project demonstrates how to build a minimal yet flexible chatbot system with support for custom system prompts, enabling developers to control behavior, tone, and personality with ease.
 
 ---
