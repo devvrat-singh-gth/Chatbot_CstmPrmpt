@@ -67,12 +67,13 @@ Once started, the chatbot will process user inputs based on the configured syste
 ```
 Chatbot_CstmPrompt/
 │
-├── app.py              # Core chatbot logic and API interaction
-├── requirements.txt   # Project dependencies
-├── .gitignore         # Ignored files and folders
-└── README.md          # Project documentation
-```
+├── __pycache__/        # Compiled Python files (auto-generated)
+├── .gitignore          # Specifies files/folders Git should ignore
+├── README.md           # Project documentation
+├── app.py              # Main chatbot application logic
+└── requirements.txt    # Python dependencies
 
+```
 ---
 
 ## ⚙️ Configuration
