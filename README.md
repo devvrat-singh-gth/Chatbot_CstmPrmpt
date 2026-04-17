@@ -1,4 +1,4 @@
-# AI-Chatbot CLI
+# Groq AI Chatbot Studio
 
 A lightweight and customizable chatbot powered by the **Groq API**, designed for fast, efficient, and high-quality text generation using Large Language Models (LLMs) such as GPT-OSS-20B.
 
@@ -11,8 +11,9 @@ This project demonstrates how to build a minimal yet flexible chatbot system wit
 - Custom system prompts to define chatbot personality and behavior  
 - High-speed inference using Groq API  
 - Support for advanced LLMs (e.g., GPT-OSS-20B)  
-- Minimal and easy-to-understand codebase  
+- Minimal and clean codebase for easy understanding  
 - Quick setup with limited dependencies  
+- Extensible architecture for future upgrades  
 
 ---
 
@@ -34,10 +35,10 @@ pip install -r requirements.txt
 Set up your Groq API key:
 
 **Using a `.env` file**
-
 ```env
 GROQ_API_KEY=your_api_key_here
 ```
+
 ---
 
 ## 💻 Usage
@@ -48,7 +49,7 @@ Run the chatbot application:
 python app.py
 ```
 
-Once started, the chatbot will process user inputs based on the configured system prompt and selected language model.
+Once started, the chatbot will respond based on the configured system prompt and selected language model.
 
 ---
 
@@ -57,43 +58,43 @@ Once started, the chatbot will process user inputs based on the configured syste
 ```
 Chatbot_CstmPrompt/
 │
-├── __pycache__/        # Compiled Python files (auto-generated)
+├── __pycache__/        # Auto-generated compiled Python files
 ├── .gitignore          # Specifies files/folders Git should ignore
 ├── README.md           # Project documentation
 ├── app.py              # Main chatbot application logic
 └── requirements.txt    # Python dependencies
-
 ```
+
 ---
 
 ## ⚙️ Configuration
 
 You can customize the chatbot by modifying:
 
-- **System prompts** in `app.py` to control responses  
-- **Model parameters** such as temperature and max tokens  
-- **LLM selection** depending on your performance and quality needs  
+- System prompts in `app.py` to control response style and personality  
+- Model parameters such as temperature, max tokens, etc.  
+- LLM selection depending on performance, cost, and quality requirements  
 
 ---
 
 ## 🚧 Potential Improvements
 
-The current implementation is intentionally minimal. The following enhancements can improve scalability, usability, and production readiness:
+This project is intentionally minimal but has strong scalability potential:
 
-- Add a web-based interface (Flask, FastAPI, or Streamlit)  
+- Add a web-based UI using FastAPI, Flask, or Streamlit  
 - Implement conversational memory for context-aware responses  
-- Support multiple LLM providers (OpenAI, Anthropic, etc.)  
-- Introduce structured logging and robust error handling  
-- Containerize the application using Docker  
-- Add unit and integration testing  
-- Enable token streaming for real-time responses  
-- Implement configuration via environment-based settings  
+- Integrate multiple LLM providers (OpenAI, Anthropic, etc.)  
+- Introduce structured logging and error handling  
+- Enable streaming responses for real-time chat experience  
+- Containerize the application using Docker for deployment  
+- Add unit and integration testing for reliability  
+- Move configuration fully to environment-based settings  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome and encouraged.
+Contributions are welcome.
 
 To contribute:
 1. Fork the repository  
