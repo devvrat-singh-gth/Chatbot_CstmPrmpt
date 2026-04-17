@@ -1,4 +1,4 @@
-# API-Chatbot
+# AI Chatbot CLI
 
 A lightweight and customizable chatbot powered by the **Groq API**, designed for fast, efficient, and high-quality text generation using Large Language Models (LLMs) such as GPT-OSS-20B.
 
